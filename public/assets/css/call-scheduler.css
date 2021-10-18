@@ -1,0 +1,441 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+body{
+  background-color: #0c5572;
+    font-family: "Roboto",sans-serif;
+    
+}
+
+.date_container{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: auto;
+    border: 0px none rgb(255, 255, 255);
+    padding: 10px 0px 0px;
+}
+
+.date_txt{
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+.today_marker{
+    background-color: #f55858;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.page_container{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    max-width: 1000px;
+    height: fit-content;
+    /* background-color: #024372; */
+    display:flex;
+    block-size: border-box;
+    justify-content: center;
+    text-align: center;
+}
+.call_scheduler_pic{
+    text-align: left;
+    max-height: 225px;
+    max-width: 225px;
+    display: flex;
+    margin: 0px;
+}
+
+.big_text{
+    font-weight:bold;
+    font-size: 38px;
+    font-family: "roboto",sans-serif;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    /* position: relative; */
+    max-width: 70%;
+}
+
+.small_text{
+    /* position: relative; */
+    font-family: "roboto",sans-serif;
+    font-size: 18px;
+    font-weight:200;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #fff;   
+    display: flex;
+    max-width: 70%;
+}
+
+
+.container2 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.right_arrow {
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+    color: #f55858;
+    column-rule-color: #f55858;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    float: right;
+    width: 40px;
+    z-index: 1;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius: 50%;
+    
+}
+.left_arrow{
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+    color: #f55858;
+    column-rule-color: #f55858;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    float: right;
+    width: 40px;
+    z-index: 1;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius: 50%;
+    
+    
+}   
+
+.left_arrow:hover,.right_arrow:hover{
+    background: #f55858;
+    color: #ffffff;
+    column-rule-color: #ffffff;
+    transform: scale(1.1);
+    transition: all 0.4s ease 0s;
+}
+
+
+.schedule_tab_column{
+    /* in test */
+    flex: 1 1 auto;
+    /*  */
+    display: inline-block;
+    height: 2058px;
+    min-width: 50px;
+    text-align: center;
+    white-space: nowrap;
+    width:auto;
+    
+}
+
+
+
+.buttons_align {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 1998px;
+    text-align: center;
+    text-size-adjust: 100%;
+    white-space: nowrap;
+    width: auto;
+    border-top: 0px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-bottom: 0px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+    padding: 1px 14px;
+}
+
+
+.disabled_time_btn{
+  
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px 0px;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 50px;
+    justify-content: center;
+    opacity: 30%;
+    pointer-events: none;
+    white-space: nowrap;
+    min-width: 100px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font: 500 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+    margin: auto;
+    margin-bottom: 17px;
+    padding: 11px 5px;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s, opacity 0.2s ease 0s;
+}
+.activated_time_btn{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px 0px;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 50px;
+    justify-content: center;
+    opacity: 100%;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: 100px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font: 500 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+    margin: auto;
+    margin-bottom: 17px;
+    padding: 11px 5px;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s, opacity 0.2s ease 0s;
+}
+
+.activated_time_btn:hover{
+    transform: scale(1.2);
+    background: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    border: none;
+    -webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+
+
+.activated_time_btn:focus{
+    background: #f55858;
+    color: #ffffff;
+    border: none;
+}
+
+
+
+/*/////////modal ////////////////*/
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+   .modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba(255, 255, 255, 0.685) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////*/
+/*/////////////////////*/
+
+/* The Modal (background) */
+.modal_valid {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    justify-content: center;
+    align-items: center;
+  } 
+  /*///*/
+  .modal_title{
+    font-weight:bold;
+    font-size: 24px;
+    font-family: "roboto",sans-serif;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    /* position: relative; */
+    width: 90%;
+  }
+
+  .modal_text{
+    font-size: 16px;
+    font-family: "roboto",sans-serif;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .time-zone{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgba(250, 250, 250, 0.692);
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    display: flex;
+    position: relative;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.603); 
+
+  }
+  
+  /* Modal Content/Box */
+  .modal_valid-content {
+    background-color: #0c5572;
+    color: rgb(250, 250, 250);
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 30px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.699);  
+    max-width: 400px; /* Could be more or less, depending on screen size */
+    min-height: 100x;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: "roboto", sans-serif;
+    position: relative;
+  }
+.modal_valid-content .active{
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 rgb(255, 255, 255);
+  transform: scale(1);
+}
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+	}
+}
+  
+  /* modal Buttons */
+  .validate {
+    width: 100%;
+    min-height: 50px;
+    background-color: #f55858;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+  }
+
+
+
+  .redo {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  .redo:hover,
+  .redo:focus,
+  .validate:hover,
+  .validate:focus {
+    transform: scale(1.05);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+  }
+  .close_cross{
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+    color: #f55858;
+    column-rule-color: #f55858;
+    cursor: pointer;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 40px;
+    z-index: 4;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius: 100%;
+    display: flex;
+
+  }
+
+.close_cross:hover{
+    background: #f55858;
+    color: #ffffff;
+    column-rule-color: #ffffff;
+    transform: scale(1.1);
+    transition: all 0.4s ease 0s;
+}
+
+.hide{
+    display: none;
+  }
+
+
+
+

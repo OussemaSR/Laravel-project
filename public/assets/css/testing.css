@@ -1,0 +1,1466 @@
+body{
+  background-color: rgb(41, 41, 41)         ;
+}
+#DIV_1 {
+  align-items: center;
+  block-size: 100px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  display: flex;
+  height: 100px;
+  inline-size: 800px;
+  margin-inline-end: 99px;
+  margin-inline-start: 99px;
+  max-inline-size: 800px;
+  max-width: 800px;
+  perspective-origin: 400px 50px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 400px 50px;
+  user-select: none;
+  width: 800px;
+  border: 1px solid rgb(206, 0, 0);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  margin: 0px 99px;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_1*/
+
+#DIV_1:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  display: block;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_1:after*/
+
+#DIV_1:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  display: block;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_1:before*/
+
+#DIV_2 {
+  block-size: 36px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 36px;
+  inline-size: 61px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+  perspective-origin: 30.5px 18px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 30.5px 18px;
+  user-select: none;
+  width: 61px;
+  border: 1px solid rgb(233, 7, 7);
+  flex: 0 0 auto;
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  padding: 0px 20px;
+}/*#DIV_2*/
+
+#DIV_2:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_2:after*/
+
+#DIV_2:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_2:before*/
+
+#IMG_3 {
+  block-size: 30px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 30px;
+  inline-size: 21px;
+  perspective-origin: 10.5px 15px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 10.5px 15px;
+  user-select: none;
+  width: 21px;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_3*/
+
+#IMG_3:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_3:after*/
+
+#IMG_3:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_3:before*/
+
+#DIV_4 {
+  block-size: 8px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  bottom: -20px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 8px;
+  inline-size: 678px;
+  inset-block-end: -20px;
+  inset-block-start: 20px;
+  inset-inline-end: 0px;
+  inset-inline-start: 0px;
+  left: 0px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  padding-inline-end: 40px;
+  padding-inline-start: 40px;
+  perspective-origin: 339px 4px;
+  position: relative;
+  right: 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 20px;
+  transform-origin: 339px 4px;
+  user-select: none;
+  width: 678px;
+  border: 1px solid red;
+  flex: 1 1 auto;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  padding: 0px 40px;
+}/*#DIV_4*/
+
+#DIV_4:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_4:after*/
+
+#DIV_4:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_4:before*/
+
+#DIV_5 {
+  block-size: 8px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 4px;
+  border-end-start-radius: 4px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 4px;
+  border-start-start-radius: 4px;
+  bottom: 0px;
+  box-shadow: rgba(51, 51, 51, 0.15) 0px 4px 4px 0px inset;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 8px;
+  inline-size: 598px;
+  inset-block-end: 0px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 0px;
+  left: 0px;
+  perspective-origin: 299px 4px;
+  position: relative;
+  right: 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 299px 4px;
+  user-select: none;
+  width: 598px;
+  background: rgb(11, 103, 128) none repeat scroll 0% 0% / auto padding-box border-box;
+  /* border: 1px solid red; */
+  border-radius: 4px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_5*/
+
+#DIV_5:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_5:after*/
+
+#DIV_5:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_5:before*/
+
+#DIV_6 {
+  block-size: 0px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 0px;
+  inline-size: 598px;
+  perspective-origin: 299px 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 299px 0px;
+  user-select: none;
+  width: 598px;
+  border: 1px solid yellow;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_6*/
+
+#DIV_6:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_6:after*/
+
+#DIV_6:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_6:before*/
+
+#DIV_7 {
+  block-size: 8px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  bottom: 0px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 8px;
+  inline-size: 10.2969px;
+  inset-block-end: 0px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 0px;
+  left: 0px;
+  perspective-origin: 5.14062px 4px;
+  position: relative;
+  right: 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 5.14844px 4px;
+  user-select: none;
+  width: 10.2969px;
+  border: 1px solid cyan;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  transition: width 0.4s ease 0s;
+}/*#DIV_7*/
+
+#DIV_7:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_7:after*/
+
+#DIV_7:before {
+  block-size: 8px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 4px;
+  border-end-start-radius: 4px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 4px;
+  border-start-start-radius: 4px;
+  bottom: 0px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  content: '""';
+  display: block;
+  height: 8px;
+  inline-size: 14.2969px;
+  inset-block-end: 0px;
+  inset-block-start: 0px;
+  inset-inline-end: -4px;
+  inset-inline-start: 0px;
+  left: 0px;
+  perspective-origin: 7.14062px 4px;
+  pointer-events: none;
+  position: absolute;
+  right: -4px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 0px;
+  transform-origin: 7.14844px 4px;
+  user-select: none;
+  width: 14.2969px;
+  z-index: 1;
+  background: rgb(111, 207, 151) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  border-radius: 4px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_7:before*/
+
+#DIV_8 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  bottom: -16px;
+  box-shadow: rgba(51, 51, 51, 0.15) 0px 4px 4px 0px inset;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 20px;
+  inline-size: 20px;
+  inset-block-end: -16px;
+  inset-block-start: 4px;
+  inset-inline-end: 578px;
+  inset-inline-start: 0px;
+  left: 0px;
+  perspective-origin: 10px 10px;
+  position: absolute;
+  right: 578px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 4px;
+  transform: matrix(1, 0, 0, 1, -10, -10);
+  transform-origin: 10px 10px;
+  user-select: none;
+  width: 20px;
+  background: rgb(11, 103, 128) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 2px solid rgb(0, 4, 255);
+  border-radius: 10px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_8*/
+
+#DIV_8:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_8:after*/
+
+#DIV_8:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_8:before*/
+
+#DIV_9, #DIV_13, #DIV_21 {
+  block-size: 48px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  bottom: 20px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 48px;
+  inline-size: 120px;
+  inset-block-end: 20px;
+  inset-block-start: -48px;
+  inset-inline-end: -110px;
+  inset-inline-start: 10px;
+  left: 10px;
+  padding-block-end: 16px;
+  perspective-origin: 60px 24px;
+  position: absolute;
+  right: -110px;
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: -48px;
+  transform: matrix(1, 0, 0, 1, -60, 0);
+  transform-origin: 60px 24px;
+  user-select: none;
+  width: 120px;
+  border: 1px solid rgb(255, 255, 255);
+  font: 700 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  padding: 0px 0px 16px;
+}/*#DIV_9, #DIV_13, #DIV_21*/
+
+#DIV_9:after, #DIV_13:after, #DIV_21:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 700 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_9:after, #DIV_13:after, #DIV_21:after*/
+
+#DIV_9:before, #DIV_13:before, #DIV_21:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 1px solid rgb(255, 255, 255);
+  font: 700 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_9:before, #DIV_13:before, #DIV_21:before*/
+
+#DIV_10, #DIV_14, #DIV_18, #DIV_22 {
+  block-size: 0px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 0px;
+  inline-size: 20px;
+  perspective-origin: 10px 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 10px 0px;
+  user-select: none;
+  width: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_10, #DIV_14, #DIV_18, #DIV_22*/
+
+#DIV_10:after, #DIV_14:after, #DIV_18:after, #DIV_22:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_10:after, #DIV_14:after, #DIV_18:after, #DIV_22:after*/
+
+#DIV_10:before, #DIV_14:before, #DIV_18:before, #DIV_22:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_10:before, #DIV_14:before, #DIV_18:before, #DIV_22:before*/
+
+#DIV_11 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  bottom: 0px;
+  box-shadow: rgba(51, 51, 51, 0.1) 0px 4px 10px 0px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  cursor: pointer;
+  height: 20px;
+  inline-size: 20px;
+  inset-block-end: 0px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 0px;
+  left: 0px;
+  perspective-origin: 10px 10px;
+  position: absolute;
+  right: 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transform-origin: 10px 10px;
+  user-select: none;
+  width: 20px;
+  z-index: 2;
+  background: rgb(111, 207, 151) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  border-radius: 10px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  transition: transform 0.4s ease 0s;
+}/*#DIV_11*/
+
+#DIV_11:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_11:after*/
+
+#DIV_11:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_11:before*/
+
+#DIV_12 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  bottom: -16px;
+  box-shadow: rgba(51, 51, 51, 0.15) 0px 4px 4px 0px inset;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 20px;
+  inline-size: 20px;
+  inset-block-end: -16px;
+  inset-block-start: 4px;
+  inset-inline-end: 279px;
+  inset-inline-start: 299px;
+  left: 299px;
+  perspective-origin: 10px 10px;
+  position: absolute;
+  right: 279px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 4px;
+  transform: matrix(1, 0, 0, 1, -10, -10);
+  transform-origin: 10px 10px;
+  user-select: none;
+  width: 20px;
+  background: rgb(11, 103, 128) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  border-radius: 10px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_12*/
+
+#DIV_12:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_12:after*/
+
+#DIV_12:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_12:before*/
+
+#DIV_15, #DIV_19, #DIV_23 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  bottom: 0px;
+  box-shadow: rgba(51, 51, 51, 0.1) 0px 4px 10px 0px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  cursor: pointer;
+  height: 20px;
+  inline-size: 20px;
+  inset-block-end: 0px;
+  inset-block-start: 0px;
+  inset-inline-end: 0px;
+  inset-inline-start: 0px;
+  left: 0px;
+  perspective-origin: 10px 10px;
+  pointer-events: none;
+  position: absolute;
+  right: 0px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 0px;
+  transform: matrix(0, 0, 0, 0, 0, 0);
+  transform-origin: 10px 10px;
+  user-select: none;
+  width: 20px;
+  z-index: 2;
+  background: rgb(111, 207, 151) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 1px solid red;
+  border-radius: 10px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  transition: transform 0.4s ease 0s;
+}/*#DIV_15, #DIV_19, #DIV_23*/
+
+#DIV_15:after, #DIV_19:after, #DIV_23:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  cursor: pointer;
+  pointer-events: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_15:after, #DIV_19:after, #DIV_23:after*/
+
+#DIV_15:before, #DIV_19:before, #DIV_23:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  cursor: pointer;
+  pointer-events: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_15:before, #DIV_19:before, #DIV_23:before*/
+
+#DIV_16 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  bottom: -16px;
+  box-shadow: rgba(51, 51, 51, 0.15) 0px 4px 4px 0px inset;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 20px;
+  inline-size: 20px;
+  inset-block-end: -16px;
+  inset-block-start: 4px;
+  inset-inline-end: 159.406px;
+  inset-inline-start: 418.594px;
+  left: 418.594px;
+  perspective-origin: 10px 10px;
+  position: absolute;
+  right: 159.406px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 4px;
+  transform: matrix(1, 0, 0, 1, -10, -10);
+  transform-origin: 10px 10px;
+  user-select: none;
+  width: 20px;
+  background: rgb(11, 103, 128) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  border-radius: 10px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_16*/
+
+#DIV_16:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_16:after*/
+
+#DIV_16:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_16:before*/
+
+#DIV_17 {
+  block-size: 48px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  bottom: 20px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 48px;
+  inline-size: 90px;
+  inset-block-end: 20px;
+  inset-block-start: -48px;
+  inset-inline-end: -80px;
+  inset-inline-start: 10px;
+  left: 10px;
+  padding-block-end: 16px;
+  perspective-origin: 45px 24px;
+  position: absolute;
+  right: -80px;
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: -48px;
+  transform: matrix(1, 0, 0, 1, -45, 0);
+  transform-origin: 45px 24px;
+  user-select: none;
+  width: 90px;
+  border: 0px none rgb(255, 255, 255);
+  font: 700 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  padding: 0px 0px 16px;
+}/*#DIV_17*/
+
+#DIV_17:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 700 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_17:after*/
+
+#DIV_17:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 700 14px / 16.1px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_17:before*/
+
+#DIV_20 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  bottom: -16px;
+  box-shadow: rgba(51, 51, 51, 0.15) 0px 4px 4px 0px inset;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 20px;
+  inline-size: 20px;
+  inset-block-end: -16px;
+  inset-block-start: 4px;
+  inset-inline-end: -20px;
+  inset-inline-start: 598px;
+  left: 598px;
+  perspective-origin: 10px 10px;
+  position: absolute;
+  right: -20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: 4px;
+  transform: matrix(1, 0, 0, 1, -10, -10);
+  transform-origin: 10px 10px;
+  user-select: none;
+  width: 20px;
+  background: rgb(11, 103, 128) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  border-radius: 10px;
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_20*/
+
+#DIV_20:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_20:after*/
+
+#DIV_20:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_20:before*/
+
+#IMG_24 {
+  block-size: 20px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  bottom: 4px;
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  display: block;
+  height: 20px;
+  inline-size: 15px;
+  inset-block-end: 4px;
+  inset-block-start: -16px;
+  inset-inline-end: 572.703px;
+  inset-inline-start: 10.2969px;
+  left: 10.2969px;
+  perspective-origin: 7.5px 10px;
+  position: absolute;
+  right: 572.703px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  top: -16px;
+  transform: matrix(1, 0, 0, 1, -7.5, 0);
+  transform-origin: 7.5px 10px;
+  user-select: none;
+  width: 15px;
+  z-index: 3;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  transition: left 0.4s ease 0s;
+}/*#IMG_24*/
+
+#IMG_24:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_24:after*/
+
+#IMG_24:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 12px / 13.8px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_24:before*/
+
+#DIV_25 {
+  block-size: 31px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 31px;
+  inline-size: 61px;
+  min-block-size: auto;
+  min-height: auto;
+  min-inline-size: auto;
+  min-width: auto;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+  perspective-origin: 30.5px 15.5px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 30.5px 15.5px;
+  user-select: none;
+  width: 61px;
+  border: 1px solid red;
+  flex: 0 0 auto;
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  padding: 0px 20px;
+}/*#DIV_25*/
+
+#DIV_25:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_25:after*/
+
+#DIV_25:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_25:before*/
+
+#IMG_26 {
+  block-size: 25px;
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  height: 25px;
+  inline-size: 21px;
+  perspective-origin: 10.5px 12.5px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  transform-origin: 10.5px 12.5px;
+  user-select: none;
+  width: 21px;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_26*/
+
+#IMG_26:after {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_26:after*/
+
+#IMG_26:before {
+  border-block-end-color: rgb(255, 255, 255);
+  border-block-start-color: rgb(255, 255, 255);
+  border-inline-end-color: rgb(255, 255, 255);
+  border-inline-start-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  caret-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  column-rule-color: rgb(255, 255, 255);
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  user-select: none;
+  border: 0px none rgb(255, 255, 255);
+  font: 500 26px / 29.9px Montserrat, "Helvetica Neue", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_26:before*/
+
+
+.heading{
+  background-color: #0c5572;
+  width:100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.heading_layout{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    height: 50px;
+    padding:0px;
+    border: 1px solid crimson;
+
+}
+.step_layout{
+  display: grid;
+  grid-template-columns: 30px minmax(auto,400px) 30px minmax(auto,120px) 30px minmax(auto,150px) 30px;
+  height: 50px;
+  padding:0px;
+  border: 2px solid rgb(20, 33, 220);
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.stack_labels{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.labels_n{
+  background-color: #146281;
+  box-shadow: inset 0 0 10px #000000;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 14px;
+  font-family: "roboto",sans-serif;
+  color: rgba(255, 255, 255, 0.541);
+  display: flex;
+}
+.labels_title{
+  content: 'label';
+  display: block;
+  bottom: 40px;
+  font-size: 14px;
+  font-family: "roboto",sans-serif;
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+
+
+.stack_bar{
+  position: relative;
+}			
+
+
+
+.empty_bar1{
+  width: border-box;
+  height: 10px;
+   background-color: #146281;
+  margin-left: -7px;
+  margin-right: -5px;
+  position: relative;
+  box-shadow:inset 0 0 10px #000000;
+}
+.progressbar1{
+  width: 0%;
+  height: 12px;
+  background-image: linear-gradient( #f57171,#f55858,#f55858);
+  border-radius: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  position: absolute;
+  top: 0px;
+}
+
+.empty_bar2{
+  width: border-box;
+  height: 10px;
+   background-color: #146281;
+  margin-left: -7px;
+  margin-right: -5px;
+  position: relative;
+  box-shadow:inset 0 0 10px #000000;
+}
+.progressbar2{
+  width: 0%;
+  height: 10px;
+  background-image: linear-gradient( #f57171,#f55858,#f55858);
+  border-radius: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  position: absolute;
+  top: 0px;
+}
+.empty_bar3{
+  width: border-box;
+  height: 10px;
+  background-color: #146281;
+  margin-left: -7px;
+  margin-right: -5px;
+  position: relative;
+  box-shadow:inset 0 0 10px #000000;
+}
+.progressbar3{
+  width: 0%;
+  height: 10px;
+  background-image: linear-gradient( #f57171,#f55858,#f55858);
+  border-radius: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  position: absolute;
+  top: 0px;
+}
+
