@@ -146,8 +146,6 @@
 						</div>
 					</div>
 
-					<button id="skip">skip</button>
-
 					<input type="button" id="commencer" class="next long_btn" value="Commencer"/>
 				</section>
 				

@@ -905,24 +905,6 @@ $(document).ready(function(e) {
 		});
 			
 			
-		
-	
-	/////temporary skip button////
-	
-		$("#skip").click(function(e){
-			e.preventDefault();
-			current_fs = $(this).parent();
-			next_fs = $("section#4rth_section");
-	
-			next_fs.show().animate({height:'100%',opacity:'100%'}); 
-				//hide the current section with style
-				current_fs.animate({height:'0%',opacity:'0'}).promise().done(function () {
-					current_fs.hide();
-				});
-			
-	
-		 });
-	
 	
 	
 		/////////////////
@@ -1042,7 +1024,7 @@ $(document).ready(function(e) {
 
 
 
-
+/////////// for testing////////////
 	 $("#ignore").on("click",function(){
 		$("#note_card").hide();
 		$("#back_paint").hide();
