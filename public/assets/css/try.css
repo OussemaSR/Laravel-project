@@ -27,7 +27,7 @@ body {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
+
   display: flex;
   flex-direction: column;
 
@@ -56,7 +56,6 @@ body {
 }
 
 .form_area{
-  padding: 20px;
   display: flex;
   height: max-content;
   text-align: center;
@@ -75,16 +74,16 @@ body {
 	overflow:hidden;
   display: flex;
   padding: 20px;
-  max-height:525px;
+  max-height: 525px;
 }
-#msform .msform_body {
+#msform {
 	background: #0c5572;
   color: rgb(255, 255, 255);
 	border: 0 none;
 	border-radius: 20px;
 	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
 	padding: 20px 30px;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
   display: block;
   align-items: center;
   justify-content: center;
@@ -125,6 +124,7 @@ body {
 	  margin-bottom: 16px;
     font-family: "roboto",sans-serif;
     font-weight: bold;
+    box-sizing: border-box;
 }
 .ms-subtitle {
   width: 100%;
@@ -138,12 +138,9 @@ body {
 @media only screen and (max-width: 450px) {
   .ms-title {
       font-size: 14px;
-      margin-bottom: 10px;
-      padding: 0;
   }
   .ms-subtitle {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 13px; 
   }
   
 
@@ -157,7 +154,6 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 	font-family: "Roboto", sans-serif;
-	text-transform: uppercase;
 	color: #ffffff;
 	border: 0 none;
 	border-radius: 10px;
@@ -195,25 +191,38 @@ body {
 
 /*-------dropdown--------*/
 .dropdown {
-    background-color: #eee;
-    padding: 0.65em 0.625em;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    gap: 0.875em;
-    position: relative;
-    color: rgb(94, 94, 94);
-    font-size: 16px;
-    border-radius: 10px;
-  }
+  background-color: #eee;
+  padding: 0.65em 0.625em;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 0.875em;
+  position: relative;
+  color: rgb(94, 94, 94);
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+#msform .region_input {
+  background-color: #eee;
+  width: 100%;
+  padding: 0.65em 0.625em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 0.875em;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+}
 
 
-  @media only screen and (max-width: 450px) {
-    .dropdown,.errormsg {
+@media only screen and (max-width: 450px) {
+    .dropdown,.errormsg, .region_input {
       font-size: 14px;
-    }
-  
   }
+}
 
 #note_card{
   display: none;
@@ -221,7 +230,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   max-width: 800px;
-  padding: 0px 20px;
+
   margin: auto;
 }
 
@@ -232,7 +241,7 @@ body {
 	border: 0 none;
 	border-radius: 20px;
 	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-	padding: 20px 30px;
+	padding: 20px;
 	box-sizing: border-box;
   display: block;
   align-items: center;
@@ -474,6 +483,7 @@ body {
 	width: 100%;
 	height: 100%;
   justify-content: center;
+  align-items: center;
 	/*stacking sections above each other*/
 	position: relative;
   /* overflow:auto; */
@@ -640,7 +650,7 @@ input[type="file"] {
 	margin-bottom: 10px;
 	width: 70%;
   height: fit-content;
-  max-height: 200px;
+  height: 180px;
 	box-sizing: border-box;
 	font-family: "roboto",sans-serif;
   font-size: 18px;
@@ -741,7 +751,7 @@ input[type="file"] {
     height: fit-content;
     padding: 40px;
     text-align: center;
-    margin:auto;
+    margin: 20px auto;
     max-width: 650px;
     background: #bddce6;
     border-radius: 20px;
@@ -775,7 +785,7 @@ input[type="file"] {
 	border: 1px solid rgb(255, 255, 255);
 	margin-bottom: 10px;
 	width: 100%;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	font-size: 13px;
   max-width: 736px;
 	min-height: 50px;
@@ -783,7 +793,6 @@ input[type="file"] {
 	font-weight: bold;
 	font-size: 20px;
 	font-family: "Roboto", sans-serif;
-	text-transform: uppercase;
 	color: #ffffff ;
 	border: none ;
 	border-radius: 10px;
@@ -799,6 +808,12 @@ input[type="file"] {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+@media only screen and (max-width: 650px) {
+  .long_btn{
+    font-size: 14px;
+  }
+} 
 
 #logo_stage {
     max-block-size: 73px;
@@ -828,14 +843,25 @@ input[type="file"] {
     font: 700 32px / 36.8px "roboto", sans-serif;
 }
 
+
+
 #subtitle_stage {
-    box-sizing: border-box;
-    color: #464646;
-    height: fit-content;
-    text-align: center;
-    max-width: 640px;
-    margin-top: 20px;
-    font: 500 17px / 19.55px "roboto", sans-serif;
+  box-sizing: border-box;
+  color: #464646;
+  height: fit-content;
+  text-align: center;
+  max-width: 640px;
+  margin-top: 20px;
+  font: 500 17px / 19.55px "roboto", sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+  #title_stage{
+    font-size: 24px;
+  }
+  #subtitle_stage{
+    font-size: 14px;
+  }
 }
 
 /****---button--****/
@@ -1007,14 +1033,14 @@ left: 0px;
 	box-sizing: border-box;
 	font-size: 13px;
 	height: fit-content;
-  border:1px solid #ffffffde;
-	background: #e4e4e4;
+  border: none;
+	background: #ffffff;
 	font-size: 16px;
 	font-family: "Roboto", sans-serif;
 	color: #353535 !important;
 	border-radius: 10px;
 	cursor: pointer;
-  box-shadow:inset 0 0 10px #070707;
+  box-shadow:inset 0 0 7px #070707;
 	padding: 10px 5px;
 	margin: 10px auto;
 	letter-spacing: 0.5px;
@@ -1102,6 +1128,11 @@ left: 0px;
   margin: 17.43px 0px;
   text-align: left;
  
+}
+@media only screen and (max-width : 650px) {
+  .sss_container{
+    font-size: 20px;
+  }
 }
 
 .sss_img {
@@ -1406,26 +1437,45 @@ padding: 8px 0px;
 
 
 #sticker {
-  block-size: 243.172px;
+
   bottom: 0px;
   box-sizing: border-box;
   height: 243.172px;
-  inline-size: 400px;
   left: 500px;
   position: absolute;
   right: -400px;
   text-align: center;
   top: 194.594px;
   width: 400px;
+  
 }/*sticker*/
 
 #stiker_img {
   position: relative;
   text-align: center;
-  width: 400px;
+  max-width: 400px;
   z-index: 3;
 }
 
+@media only screen and (max-width: 750px){
+  #sticker {
+
+    box-sizing: border-box;
+    left:0;
+    text-align: center;
+    top: 430px;
+    max-width: 100px;
+    transform: translateX(50%);
+    aspect-ratio: 1;
+  }/*sticker*/
+  
+  #stiker_img {
+    /* position: relative;
+    text-align: center; */
+    width: 350px;
+    /* z-index: 3; */
+  }
+}
 
 /*/////////////////////////////////////////*/
 /* ///////////////////////////////////////// */
@@ -1452,9 +1502,5 @@ padding: 8px 0px;
 .hidden_element{
   display: none;
 }
-
-
-
-
 
 

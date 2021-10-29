@@ -37,6 +37,7 @@ body{
     margin: auto;
     max-width: 1000px;
     height: fit-content;
+    position: relative;
     /* background-color: #024372; */
     display:flex;
     block-size: border-box;
@@ -77,6 +78,24 @@ body{
     max-width: 70%;
 }
 
+.flex_card{
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+
+.scroll_table{
+  display: flex;
+  height: max-content;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 20px;
+  position: absolute;
+  overflow-x: auto;
+}
+
+
 
 .container2 {
     padding-top: 20px;
@@ -85,6 +104,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     max-width: 1200px;
+    min-width: 950px;
     margin: 0 auto;
     position: relative;
 
@@ -134,7 +154,6 @@ body{
     background: #f55858;
     color: #ffffff;
     column-rule-color: #ffffff;
-    transform: scale(1.1);
     transition: all 0.4s ease 0s;
 }
 
@@ -414,8 +433,8 @@ body.loading .modal {
     height: 40px;
     justify-content: center;
     position: absolute;
-    right: -10px;
-    top: -10px;
+    right: 0;
+    top: 0;
     width: 40px;
     z-index: 4;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;

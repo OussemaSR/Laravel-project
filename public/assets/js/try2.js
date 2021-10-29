@@ -57,11 +57,7 @@ $(document).ready(function(e) {
 	}
 	/////move to next section animation function///////
 	  function NavigateToNext(current,next){
-		current = current_fs;
-		next = next_fs;
 
-					//activate next step on progressbar using the index of next_fs
-				// $("#progressbar li").eq($("#dynamic_frm > section").index(next)).addClass("active");
 				progressbarfunction(next);			
 				//show the next section
 			
@@ -81,9 +77,7 @@ $(document).ready(function(e) {
 	
 	/////return to previous section animation function///////
 	  function NavigateBack(current,previous){
-		current = current_fs;
-		previous = previous_fs;
-	
+
 		$("#progressbar li").eq($("#dynamic_frm > section").index(current)).removeClass("active");
 		while(previous.hasClass("active")!=true){
 			previous = previous.prev();
@@ -91,10 +85,14 @@ $(document).ready(function(e) {
 		
 		//show the previous section
 		previous.show().animate({height:'100%',opacity:'100%'}); 
+		
 		//hide the current section with style
-		current.animate({height:'0',opacity:'0'}).done(function () {
+		current.animate({height:'0',opacity:'0'}).promise().done(function () {
 			current.hide();
 		}); 
+		
+		console.log(previous.attr("id"));
+
 	  }
 
 	  	//////// adding summery lines fcn //////////////// 
@@ -318,7 +316,7 @@ $(document).ready(function(e) {
 			$("#dynamic_frm").find("section#"+edit_pencil_sec_id).show().animate({height:'100%',opacity:'100%'}); 
 			//hide the current section with style
 			$("section#4rth_section").animate({height:'0%',opacity:'0'}).promise().done(function () {
-				current.hide();
+				$("section#4rth_section").hide();
 			});
 		});
 		//////////////////////////////////////////
@@ -579,47 +577,43 @@ $(document).ready(function(e) {
 
 					showQuestion(current_fs,$(this),trigger);
 					//activate next step on progressbar using the index of next_fs
-					NavigateToNext();
+					NavigateToNext(current_fs,next_fs);
+					current_fs.find("input.long_btn").remove();
 				}else{
-					$(this).removeClass("active");
-					// showQuestion(current_fs,$(this),trigger);
+					showQuestion(current_fs,$(this),trigger);
+					//activate next step on progressbar using the index of next_fs
+					NavigateToNext(current_fs,next_fs);
 				}
 			
 			});
 			
-	
-	
-			$("#dynamic_frm").on("click","input.one_input",function(){
+
+
+			$("#dynamic_frm").on("input","input.one_input",function(){
 				current_fs = $(this).parent().parent();
 				next_fs = $(this).parent().parent().next();
 				this_input = $(this);
 
-
-				if($(this).hasClass("active") != true){
-					$("#dynamic_frm").on("click", function (event) {
 						// If the target is not the container or a child of the container, then process
 						// the click event for outside of the container.
-						if ($(event.target).closest("input").length === 0 && (this_input.val()!="")) {
+						if ($.trim(this_input.val())!="") {
 
 							
-
 							this_input.addClass("active");
 							this_input.siblings().removeClass("active");
-
-							showQuestion(current_fs,this_input,trigger);
-							NavigateToNext();
-						}
-					});
-					
-				}else{
-					$(this).removeClass("active");
-					showQuestion(current_fs,$(this),trigger);
+							if(current_fs.find("input.long_btn").length == false){
+								current_fs.append("<input type='button' class='next long_btn' value='Valider'/>");
+							}
+						
+						}else{
+						$(this).removeClass("active");
+						current_fs.find("input.long_btn").remove();
 					
 				}
 			});
-	
-	
-	
+			
+			////////////////////////////////////////////////////////////
+		
 			$("#dynamic_frm").on("click","input.multi_press",function(){
 				current_fs = $(this).parent().parent();
 		  		next_fs = $(this).parent().parent().parent();
@@ -653,7 +647,7 @@ $(document).ready(function(e) {
 	
 				if((select.length!=0)) {
 					if(current_fs.find("input.long_btn").length == false){
-						current_fs.append("<input type='button' class='next long_btn' value='Valider'/>")
+						current_fs.append("<input type='button' class='next long_btn' value='Valider'/>");
 					}
 				}else{
 					$(this).removeClass("active");
@@ -768,11 +762,11 @@ $(document).ready(function(e) {
 					$(this).addClass("active");	
 					let long_btn = $(this).closest("section").find("input.long_btn");
 					long_btn.css("box-shadow"," 0 0 15px 1px rgba(255, 255, 255, 0.5)");
-					long_btn.val("suivant");
+					long_btn.val("Suivant");
 				}else{
 					$(this).removeClass("active");
 					let long_btn = $(this).closest("section").find("input.long_btn");
-					long_btn.val("passez");
+					long_btn.val("Passez");
 					long_btn.css("box-shadow","none");
 				}
 			});
@@ -783,11 +777,11 @@ $(document).ready(function(e) {
 					$(this).addClass("active");	
 					let long_btn = $(this).closest("section").find("input.long_btn");
 					long_btn.css("box-shadow"," 0 0 15px 1px rgba(255, 255, 255, 0.5)");
-					long_btn.val("suivant");
+					long_btn.val("Suivant");
 				}else{
 				$(this).removeClass("active");
 					let long_btn = $(this).closest("section").find("input.long_btn");
-					long_btn.val("passez");
+					long_btn.val("Passez");
 					long_btn.css("box-shadow","none");
 				}
 			});
@@ -798,7 +792,7 @@ $(document).ready(function(e) {
 				current_fs = $(this).parent();
 				next_fs = $(this).parent().next();
 	
-		  NavigateToNext();
+		  NavigateToNext(current_fs,next_fs);
 			});
 	
 	
@@ -806,8 +800,8 @@ $(document).ready(function(e) {
 			$("#dynamic_frm").on("click","input.previous",function(){
 				current_fs = $(this).parent();
 				previous_fs = $(this).parent().prev();
-	
-		  NavigateBack();
+
+		  NavigateBack(current_fs,previous_fs);
 	
 			});
 
@@ -870,6 +864,8 @@ $(document).ready(function(e) {
 					});
 			
 					$("#survey_layout").hide();
+					$("#survey_layout").hide();
+					$("body").css("height", "100vh");
 					$("#registration").css("display","flex").animate({opacity:'100%'});
 				
 						
@@ -913,13 +909,16 @@ $(document).ready(function(e) {
 	
 	/////temporary skip button////
 	
-		$("#skp").click(function(e){
-			current_fs = $(this).parent().parent();
-			next_fs = $("section#2nd_section");
+		$("#skip").click(function(e){
+			e.preventDefault();
+			current_fs = $(this).parent();
+			next_fs = $("section#4rth_section");
 	
-			next_fs.show().animate({height:'100vh',opacity:'100%'}); 
-			//hide the current section with style
-			current_fs.animate({height:'0vh',opacity:'0'});
+			next_fs.show().animate({height:'100%',opacity:'100%'}); 
+				//hide the current section with style
+				current_fs.animate({height:'0%',opacity:'0'}).promise().done(function () {
+					current_fs.hide();
+				});
 			
 	
 		 });
@@ -932,9 +931,9 @@ $(document).ready(function(e) {
 		var ville;
 		$("#confirmer").click(function(e){
 			e.preventDefault();
-			categorie_id=$("#categorie option:selected").attr("id");
-			categorie=$("#categorie option:selected").val();
-			ville=$("#ville option:selected").val();
+			categorie_id = $("#categorie option:selected").attr("id");
+			categorie = $("#categorie option:selected").val();
+			ville = $.trim($("#ville").val());
 			console.log(categorie_id)
 			console.log(categorie)
 			console.log(ville)

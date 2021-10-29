@@ -22,7 +22,8 @@
             }
         });
     </script>
-	<title>SM Devis | Traveaux en ligne</title>
+	<title>SM Devis | Travaux en ligne</title>
+	<link rel="shortcut icon" type="image/jpg" href="assets/images/logo.jpg"/>
 </head>
 <body>
 	
@@ -34,7 +35,7 @@
 		<div id="msform_container" class="form_area">
 			<form id="msform" method="POST">
 
-				<div class="msform_body">
+				{{-- <div class="msform_body"> --}}
 					<div class="msform_logo">
 						<div class="circle_logo"><img src="assets/images/location.png" alt="location"></div>
 					</div>
@@ -59,39 +60,10 @@
 					
 					</optgroup>
 					</select>
-					<div>
-					<select list="region" id="ville" name="ville" class="dropdown" >
-						<optgroup label="Région">
-							<option value="" disabled selected hidden>Votre région</option>
-							<option value="bizerte">Bizerte</option> 
-							<option value="nabel">Nabel</option> 
-							<option value="ariana">Ariana</option> 
-							<option value="tunis">Tunis</option> 
-							<option value="zaghouen">Zaghouen</option>
-							<option value="manouba">Manouba</option> 
-							<option value="ben_arous">Ben arous</option> 
-							<option value="sousse">Sousse</option> 
-							<option value="sfax">Sfax</option> 
-							<option value="mehdia">Mehdia</option> 
-							<option value="monastir">Monastir</option>      
-							<option value="beja">Béja</option> 
-							<option value="jandouba">Jandouba</option>
-							<option value="kef">Kef</option>   
-							<option value="siliana">Siliana</option> 
-							<option value="kairaoun">Kairaoun</option>       
-						    <option value="sidi_bouzid">Sidi bouzid</option>
-							<option value="kasserine">Kasserine</option>
-							<option value="mednine">Mednine</option>
-							<option value="kebili">Kebili</option>
-							<option value="gabes">Gabès</option>
-							<option value="gafsa">Gafsa</option>
-							<option value="tozeur">Tozeur</option>
-							<option value="tataouine">Tataouine</option>
-						</optgroup>
-					</select>
-					</div>
-						<input type="button" id="confirmer" class="confirm-button" value="confirmer"/>
-				</div>
+				
+					<input type="text" class="region_input" id="ville"  placeholder="Votre ville"/>
+					<input type="button" id="confirmer" class="confirm-button" value="Confirmer"/>
+
 			</form>
 		
 		</div>	
@@ -158,7 +130,7 @@
 		</div>
 	
 	    <form id="dynamic_frm">
-				<section id="1st_section">
+				<section id="1st_section" class="active">
 					<div id="progress_stage">
 						<div id="n_stage">
 							1
@@ -172,18 +144,18 @@
 						<div id="subtitle_stage">
 							Explorons les contours de votre super projet ensemble.
 						</div>
-						{{-- for tetsing --}}
-						<input type="button" id="skp" value="skip"/>
-						{{--  --}}
 					</div>
-					<input type="button" id="commencer" class="next long_btn" value="commencer"/>
+
+					<button id="skip">skip</button>
+
+					<input type="button" id="commencer" class="next long_btn" value="Commencer"/>
 				</section>
 				
 				<section id="additional" class="1st_stage active">
 					<h2 class="f-title">Pour compléter,décrivez-nous votre project ou ajoutez des précisions</h2>
 					<h3 class="f-subtitle">Optionnel</h3>
 					<textarea class="big_input" id="add_info" placeholder="A remplir..."></textarea>
-					<input type="button" class="next long_btn" value="passez" />
+					<input type="button" class="next long_btn" value="Passez" />
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />	
 				</section>
 
@@ -202,7 +174,7 @@
 							Les informations additionelles pour mieux vous aider.
 						</div>
 					</div>
-					<input type="button" class="next long_btn" value="commencer"/>
+					<input type="button" class="next long_btn" value="Commencer"/>
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />	
 				</section>
 				<section id="plan" class="2nd_stage active">
@@ -222,7 +194,7 @@
 								{{-- will be put here--}}
 							</div>
 				    	</div>
-					<input type="button" class="next long_btn" value="passez" />
+					<input type="button" class="next long_btn" value="Passez" />
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />	
 				</section>
 				<section id="actuel_pic" class="2nd_stage active">
@@ -242,11 +214,11 @@
 							{{-- will be put here--}}
 						</div>
 					</div>
-					<input type="button" class="next long_btn" value="passez" />
+					<input type="button" class="next long_btn" value="Passez" />
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />	
 				</section>
 				<section id="inspire_pic" class="2nd_stage active">
-					<h2 class="f-title">Avez-vous des images ou photos de tarveaux ou décorations qui vous inspirent ?</h2>
+					<h2 class="f-title">Avez-vous des images ou photos de travaux ou décorations qui vous inspirent ?</h2>
 					<h3 class="f-subtitle">Pas d'inquiétude si vous ne les avez pas sous la main, vous pourrez nous les envoyer plus tard</h3>
 					<h3 class="f-subtitle">Optionnel</h3>
 					<span id="inspire_pic" class="file_error"></span>
@@ -262,7 +234,7 @@
 							{{-- will be put here--}}
 						</div>
 					</div>
-					<input type="button" class="next long_btn" value="passez" />
+					<input type="button" class="next long_btn" value="Passez" />
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />	
 				</section>
 				<section id="3rd_section" class="active">
@@ -277,10 +249,10 @@
 							Votre bien et vous
 						</div>
 						<div id="subtitle_stage">
-							Parlon de petit chez-vous en long, large et travers.
+							Parlons de votre de petit chez-vous en long, large et travers.
 						</div>
 					</div>
-					<input type="button" class="next long_btn" value="commencer"/>
+					<input type="button" class="next long_btn" value="Commencer"/>
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />	
 				</section>
 				<section id="adresse" class="3rd_stage active">
@@ -288,7 +260,7 @@
 					<h3 class="f-subtitle">Optionnel</h3>
 					<input type="text" class="input_field" id="adress" placeholder="votre adresse..." />
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />
-					<input type="button" name="next" class="next long_btn" value="passez" />
+					<input type="button" name="next" class="next long_btn" value="Passez" />
 				</section>
 				<section id="logement" class="3rd_stage active">
 					<h2 class="f-title">Quelle est le type de votre logement ?</h2>
@@ -329,12 +301,12 @@
 				<section id="disponibilité" class="3rd_stage active">
 					<h2 class="f-title">Quel sont vos disponibilités pour les visites</h2>
 					<h3 class="f-subtitle">Optionnel</h3>
-					<input type="text" class='input_field' placeholder="Autre(préciser)..." />
+					<input type="text" class='input_field' placeholder="A Remplir..." />
 					<input type="button" name="previous" class="previous action-button" value="Précedent" />
-					<input type="button" class="next long_btn" value="passez"/>
+					<input type="button" class="next long_btn" value="Passez"/>
 				</section>
-				<section id="traveaux" class="3rd_stage active">
-					<h2 class="f-title">Quand souhaitez-vous Réaliser Vos Traveaux ?</h2>
+				<section id="travaux" class="3rd_stage active">
+					<h2 class="f-title">Quand souhaitez-vous réaliser vos travaux ?</h2>
 					<h3 class="f-subtitle">1 seul choix possible</h3>
 					<div class="container1">	
 						<input class="one_press buttn" value="Dés que possible" />
@@ -462,7 +434,7 @@
 					
 					
 						<div id="submitting" class="summery_step_style">
-						  <input type="button" id="survey_end" class="long_btn" value="Confirmer  Programmer un rendez-vous">
+						  <input type="button" id="survey_end" class="long_btn" value="Confirmer & Programmer un rendez-vous">
 						</div>
 					
 						
@@ -500,12 +472,14 @@
 								<div id="legal_verif">
 									<div class="verif">
 										<label id="legal_label">
-											<input type="checkbox" required/> <span class="Sspan">J'accepte les conditions générales d'utilisation (<a href="smdevis/public/mentions_legales" rel="noopener noreferrer" >Voir les CGU</a>) *</span>
+											<input type="checkbox" required/> 
+											<span class="Sspan">J'accepte les conditions générales d'utilisation (<a href="assets/files/Mention légal &_CGU_SM_Devis.pdf" rel="noopener noreferrer" target="_blank" >Voir les CGU</a>) *</span>
 										</label>
 									</div>
 									<div class="verif">
 										<label id="legal_label">
-											<input type="checkbox" required/> <span class="Sspan">J’accepte que mes données soient transférées à des sociétés partenaires pour bénéficier d'offres et bons plans ciblés.</span>
+											<input type="checkbox" required/> 
+											<span class="Sspan">J’accepte que mes données soient transférées à des sociétés partenaires pour bénéficier d'offres et bons plans ciblés.</span>
 										</label>
 									</div>
 								</div> 
@@ -513,7 +487,7 @@
 							</div>
 						</div>
 						<div id="sticker">
-							<img src="https://espace-client.renovationman.com/assets/images/perceuse.png" alt="" id= "stiker_img" />
+							<img src="assets/images/perceuse.png" alt="" id= "stiker_img" />
 						</div>
 					</div>
 				</div>

@@ -30,7 +30,7 @@ class AdminMail extends Mailable
      */
     public function build()
     {
-        $mail = $this->markdown('emails.sm_mail_admin')->subject('SM DEVIS: Formulaire client')->with('BIG_data',$this->BIG_data);
+        $mail = $this->markdown('emails.sm_mail_admin')->subject('Demande de devis de Travaux')->with('BIG_data',$this->BIG_data);
 
         if(!empty($this->BIG_data["attachments"])){
             foreach($this->BIG_data["attachments"] as $file){

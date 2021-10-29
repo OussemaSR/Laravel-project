@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {{-- <link rel="stylesheet" href="../assets/css/email.css"> --}}
+
+
 </head>
     <style>
         html{
@@ -16,18 +17,16 @@
           padding:0;
           width: 100%;
           height:100%;
-          display: block;
+          /* display: block; */
           text-align: center;
-          align-items: center;
-          justify-content: center;
           font-family: Arial, Helvetica, sans-serif;
+          background-color: rgb(192, 192, 192);
         }
         section{
-          box-shadow: 0 0 4px 1px #929292e3;
-          background: #ffffff;
-          border-radius: 5px;
-          align-items: center;
-          justify-content: center;
+          border: 1px solid rgb(141, 141, 141) ;
+          background-color: #ffffff;
+          /* border-radius: 5px; */
+          text-align: center;
           padding: 5px;
           margin: 10px 0;
         }
@@ -44,15 +43,55 @@
         .email_logo{
           display: block;
           width: 100%;
-          max-height: 80px ;
-          justify-content: center;
-          align-items: center;
-          padding: 10px;
+          max-height: 400px ;
+          text-align: center;
+          padding: 10px 0;
           margin:20px auto;  
-          box-shadow: inset 0 0 4px 1px #929292e3;
-          background: #ffffff;
-        
         }
+
+       
+
+        .img{
+          
+          width: 100%;
+          height: 400px;
+          
+        }
+
+        @media only screen and (max-width: 560px) {
+        .email_logo{
+          display: block;
+          width: 100%;
+          max-height: 260px ;
+          text-align: center;
+          padding: 10px 0;
+          margin:20px auto;  
+        }
+
+        .img{
+          
+          width: 100%;
+          height: 260px;
+          
+        }
+        }
+
+        .buttom_logo{
+          /* display: block; */
+          width: 100%;
+          max-height: 150px ;
+          text-align: left;
+          padding: 10px 0;
+          margin:auto 20px;  
+        }
+
+        .img2{
+  
+          width: 150px;
+          height: 150px;
+          
+        }
+
         .logo{
             font-size: 26px;
             text-transform: uppercase;
@@ -62,28 +101,23 @@
         }
 
         .page_container{
-          max-width: 80em;
+          max-width: 800px;
           height: max-content;
-          margin:auto;
-          padding:1em; 
+          margin: auto;
+          padding:0 20px; 
           display: block;
-          justify-content: center;
-          align-items: center;
-          border-radius: 10px;
-          background: #ffffff;
+          text-align: center;
+          background-color: #ffffff;
         
         }
 
         .request_type{
           font-size: 25px;
           margin: 10px 0;
-          display: flex;
-          justify-content: center;
           text-align: center;
           width: 100%;
-          text-transform: uppercase;
           font-weight: bolder;
-          color: rgba(41, 41, 41, 0.87);
+          color: rgba(8, 8, 8, 0.87);
         }
         @media only screen and (max-width: 560px) {
           .request_type{
@@ -97,15 +131,15 @@
           padding: 0;
           grid-template-columns: auto auto auto;
           border: 1px solid rgba(75, 74, 74, 0.925);
-          background: #ffffff;
-          border-radius: 5px;
+          background-color: #ffffff;
+          /* border-radius: 5px; */
         }
         .second_half{
           display: grid;
           width: 100%;
           padding: 0;
-          background: #ffffff;
-          border-radius: 5px;
+          background-color: #ffffff;
+          /* border-radius: 5px; */
           margin-top:5px;
         }
         .data_table{
@@ -116,11 +150,11 @@
         .label{
           width: 100%;
           height: auto;
-          padding: 5px 10px;
+          padding: 5px 0;
           text-align: left;
-          color: rgba(78, 78, 78, 0.815);
+          color: rgba(8, 8, 8, 0.87);
           font-size: 16px;
-          font-weight: bold;
+          font-weight: bolder;
         }
 
         @media only screen and (max-width: 560px) {
@@ -135,7 +169,7 @@
           margin: 5px 0;
           padding: 1px 10px;
           border: 1px solid rgba(75, 74, 74, 0.925);
-          border-radius: 5px;
+          /* border-radius: 5px; */
         }
 
         .data_line div{
@@ -156,6 +190,8 @@
 
         .text{
           line-height: 1.6;
+          text-align: left;
+          padding: 0 20px;
           font-size: 16px;
           color: rgba(75, 74, 74, 0.925);
         }
@@ -165,41 +201,51 @@
           }
         }
 
-        .footer{
-          width: 100%;   
-          height: 50px;
-          align-items: center;
-          justify-content: center;
-          display: flex;
-          margin:auto;
-          background: #cbecdf; 
-        }
-        .footer span{ 
-          color: rgba(75, 74, 74, 0.925);
-          font-size: 12px;
-          width: 100%; 
+        .list{
+          margin:0 50px ;
+          line-height: 1.6;
+          text-align: left;
+          padding: 10px 20px;
+          font-size: 16px;
         }
 
+        .link{
+          color: #0c5572;
+          font-weight :bolder;
+          text-align: left;
+          font-size: 16px;
+        }
         @media only screen and (max-width: 560px) {
-          .footer span{
-              font-size: 10px;
+          .link{
+              font-size: 12px;
           }
+        }
+
+        .footer{
+          width: 100%;
+          height: max-content;
+          line-height: 1.6;
+          text-align: center;
+          background-color: rgb(236, 236, 236);
+        }
+
+        .contacts{
+          display: inline-flex;
+          gap: 12px;
+          margin-bottom: 20px;
+        }
+
+        .contact_logo{
+          width: max-content;
+          padding: 5px;
+          margin: 10px;
+          text-align: center;
+          height: max-content;
+          background-color: rgb(190, 190, 190);
         }
 
     </style>
 <body>
-
-    
-    {{-- header --}}
-    <div class="email_logo">
-        <div class="logo">{{ config('app.name') }}</div>
-        {{-- <img src="../assets/images/logoo.png" alt="SM-DEVIS"> --}}
-    </div>
-    {{-- /header --}}
     @yield('content')
-    {{--footer--}}
-    <div class="footer">
-        <span>Copyright © {{ now()->year }} {{ config('app.name') }} .</span>
-    </div>
 </body>
 </html>

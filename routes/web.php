@@ -53,10 +53,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/renovation', function()
- {
-     return view('renovation');
-});
 
 Route::get('/call-scheduler', function()
 {
@@ -68,6 +64,7 @@ Route::get('/mentions_legales', function()
 {
     return view('mentions_legales');
 });
+
 
 
 

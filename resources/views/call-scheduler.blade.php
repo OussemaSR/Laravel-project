@@ -11,7 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="assets/js/call-scheduler.js"></script>
 
-    <title>Document</title>
+    <title>SM Devis | Travaux en ligne</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/logo.jpg"/>
 </head>
 <body>
     <div class="page_container">
@@ -23,24 +24,27 @@
         <div class="big_text">Programmez votre appel avec l'un de nos conseillers</h1>
       </div>
     
-       <div>
-        <h3 class="small_text">Merci d’avoir pris le temps de compléter votre questionnaire,
-           c’est l’assurance d’un devis illico presto. Un de nos supers conseillers 
-           travaux va maintenant l’étudier (bien comme il faut) et vous appeler,
-            selon vos disponibilités</h3>
-       </div>
-  
-        <div class="container2">
-
-              <div class="right_arrow">
-                <i class="fa fa-arrow-right"></i>
+        <div>
+          <h3 class="small_text">Merci d’avoir pris le temps de compléter votre questionnaire,
+             c’est l’assurance d’un devis illico presto. Un de nos supers conseillers 
+              travaux va maintenant l’étudier (bien comme il faut) et vous appeler,
+              selon vos disponibilités</h3>
+          </div>
+          <div class="flex_card">
+            <div class="scroll_table">
+              <div class="container2">
+              
+                  <div class="right_arrow">
+                    <i class="fa fa-arrow-right"></i>
+                  </div>
+                
+                  <div class="left_arrow">
+                    <i class="fa fa-arrow-left"></i>
+                  </div>
+                
               </div>
-
-              <div class="left_arrow">
-                <i class="fa fa-arrow-left"></i>
-              </div>
-            
-        </div>
+            </div>
+          </div>
     </div>
 
     <!-------- validate Modal -------->

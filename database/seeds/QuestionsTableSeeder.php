@@ -13,175 +13,175 @@ class QuestionsTableSeeder extends Seeder
     {
         DB::table('questions')->insert([
             [
-                "quest_id"=>"but",
+                "quest_id"=>"1",
                 "question"=>"Quel est le but de  votre recherche ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
             [
-                "quest_id"=>"dimensionpc",
+                "quest_id"=>"2",
                 "question"=>"Connaisez-vous la dimension de la pièce ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
             [
-                "quest_id"=>"dimensions",
+                "quest_id"=>"3",
                 "question"=>"Quelles sont la dimension de cette pièce ?",
                 "type"=>"btn",
                 "commentary"=>"A remplir"
             ],
             [
-                "quest_id"=>"gamme",
-                "question"=>"Quel niveau de gamme shouhaitez-vous pour tous les matériaux fournis ?",
+                "quest_id"=>"4",
+                "question"=>"Quel niveau de gamme souhaitez-vous pour tous les matériaux fournis ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
             [
-                "quest_id"=>"style",
-                "question"=>"Quel style de rénovation cherchez-vous style ?",
+                "quest_id"=>"5",
+                "question"=>"Quel style de rénovation cherchez-vous ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
             [
-                "quest_id"=>"cloison",
+                "quest_id"=>"6",
                 "question"=>"Souhaitez-vous démolir un mur ou ouvrir une cloison ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"  
             ],
             [
-                "quest_id"=>"cloisonlng",
+                "quest_id"=>"7",
                 "question"=>"Quelle est la longeur approximative de la cloison ?",
                 "type"=>"btn",
                 "commentary"=>"A remplir"
             ],
             [
-                "quest_id"=>"ssdbeqt",
+                "quest_id"=>"8",
                 "question"=>"Souhaitez-vous supprimer des équipements de votre salle de bain ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
             [
-                "quest_id"=>"sppreqt",
+                "quest_id"=>"9",
                 "question"=>"Quels équipements souhaitez-vous supprimer ?",
                 "type"=>"btn",
                 "commentary"=>"plusieurs choix possibles"
             ],
             [
-                "quest_id"=>"asdbeqt",
-                "question"=>"souhaitez-vous ajouter de nouveaux équipements pour la salle de bain",
+                "quest_id"=>"10",
+                "question"=>"Souhaitez-vous ajouter de nouveaux équipements pour la salle de bain",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
             [
-                "quest_id"=>"aasdbeqt",
+                "quest_id"=>"11",
                 "question"=>"Quels équipements souhaitez-vous ajouter ?",
                 "type"=>"btn",
                 "commentary"=>"plusieurs choix possibles"
             ],
             [
-                "quest_id"=>"remplace",
-                "question"=>"les équipements ajoutés sont-ils mêmes emplacements que les anciens ?",
+                "quest_id"=>"12",
+                "question"=>"Les équipements ajoutés sont-ils mêmes emplacements que les anciens ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
             [
-                "quest_id"=>"rvtsol",
+                "quest_id"=>"13",
                 "question"=>"Souhaitez-vous rénover le revêtement au sol ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
             [
-                "quest_id"=>"rvtsola",
+                "quest_id"=>"14",
                 "question"=>"Quel est le revêtement actuel ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
             [
-                "quest_id"=>"prepsol",
+                "quest_id"=>"15",
                 "question"=>"Quelle préparation souhaitez-vous ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
 
             [
-                "quest_id"=>"rvtsolan",
+                "quest_id"=>"16",
                 "question"=>"Quel nouveau revêtement souhaitez-vous ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
 
             [
-                "quest_id"=>"rvtmur",
+                "quest_id"=>"17",
                 "question"=>"Souhaitez-vous rénover les revêtements muraux ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
 
             [
-                "quest_id"=>"rvtmura",
+                "quest_id"=>"18",
                 "question"=>"Quel est le revêtement actuel ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible" 
             ],
 
             [
-                "quest_id"=>"etatmur",
+                "quest_id"=>"19",
                 "question"=>"Quel est l'état global des murs ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 seul choix possible"
             ],
 
             [
-                "quest_id"=>"rvtmuran",
+                "quest_id"=>"20",
                 "question"=>"Quel nouveau revêtement souhaitez-vous ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
 
             [
-                "quest_id"=>"crtplfd",
+                "quest_id"=>"21",
                 "question"=>"Souhaitez-vous crée faux plafonds ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
 
             [
-                "quest_id"=>"repplfd",
+                "quest_id"=>"22",
                 "question"=>"Souhaitez-vous repreindre les plafonds ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
 
             [
-                "quest_id"=>"etplfd",
+                "quest_id"=>"23",
                 "question"=>"Quel est l'état global des plafonds",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
 
             [
-                "quest_id"=>"vent",
+                "quest_id"=>"24",
                 "question"=>"Faut-il revoir la ventilation ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
 
             [
-                "quest_id"=>"prepvent",
-                "question"=>"Quel type d'intervention souhaitez-vous",
+                "quest_id"=>"25",
+                "question"=>"Quel type d'intervention souhaitez-vous ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 choix possible"
             ],
 
             [
-                "quest_id"=>"modelec",
+                "quest_id"=>"26",
                 "question"=>"Souhaitez-vous modifier l'installation électrique ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
 
             [
-                "quest_id"=>"modelec",
+                "quest_id"=>"27",
                 "question"=>"Quels sont les éléments à modifier ?",
                 "type"=>"btn",
                 "commentary"=>"Plusieurs choix possibles"
@@ -189,7 +189,7 @@ class QuestionsTableSeeder extends Seeder
 
             [
                 "quest_id"=>"28",
-                "question"=>"Faut-il démonter une cuisine existante?",
+                "question"=>"Faut-il démonter une cuisine existante ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
@@ -224,7 +224,7 @@ class QuestionsTableSeeder extends Seeder
 
             [
                 "quest_id"=>"33",
-                "question"=>"Souhaitez-vous un nouveau revetement ou la réflexion du revêtement actuel ?",
+                "question"=>"Souhaitez-vous un nouveau revêtement ou la réflexion du revêtement actuel ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 seul choix possible"
             ],
@@ -260,7 +260,7 @@ class QuestionsTableSeeder extends Seeder
 
             [
                 "quest_id"=>"38",
-                "question"=>"Quelle la nature de vos travaux ?",
+                "question"=>"Quelle est la nature de vos travaux ?",
                 "type"=>"no_btn",
                 "commentary"=>"1 seul choix possible"
             ],
@@ -309,7 +309,7 @@ class QuestionsTableSeeder extends Seeder
 
             [
                 "quest_id"=>"45",
-                "question"=>"Avez-vous d'autres travaux de renovation à effectuer? (extension,aménagement combles, etc) ?",
+                "question"=>"Avez-vous d'autres travaux de renovation à effectuer ? (extension,aménagement combles, etc) ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
@@ -568,14 +568,14 @@ class QuestionsTableSeeder extends Seeder
 
             [
                 "quest_id"=>"82",
-                "question"=>"Pour la salle ou la surface de vente,avez-vous besoin d'un décorateur ou d'un architecte  ?",
+                "question"=>"Pour la salle ou la surface de vente,avez-vous besoin d'un décorateur ou d'un architecte ?",
                 "type"=>"no_btn",
                 "commentary"=>"Optionnel"
             ],
 
             [
                 "quest_id"=>"83",
-                "question"=>"Pour la cuisine,quel est votre besoin ?",
+                "question"=>"Pour la cuisine, quel est votre besoin ?",
                 "type"=>"btn",
                 "commentary"=>"Plusieurs choix possible"
             ],

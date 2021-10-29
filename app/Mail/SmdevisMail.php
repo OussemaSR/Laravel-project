@@ -30,7 +30,7 @@ class SmdevisMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.sm_mail_client')->with('Client',$this->Client);
+        return $this->markdown('emails.sm_mail_client')->subject('Votre créneau de rappel : parlons de votre projet !')->with('Client',$this->Client);
                            
     }
 }

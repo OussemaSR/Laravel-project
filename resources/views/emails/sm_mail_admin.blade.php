@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="page_container">
+        <div class="email_logo">
+            <img class="img2" src="https://www.sm-devis.com/img/logo.jpg" alt="SM-DEVIS">
+        </div>
         <div class="request_type">Formulaire client</div>
         <div class="first_half">
             <div>

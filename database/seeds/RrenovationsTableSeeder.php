@@ -22,7 +22,7 @@ class RrenovationsTableSeeder extends Seeder
             ],
             [
             'renotype'=>'PPS',
-            'renoname'=>'Sol-Mur-Palfonds'
+            'renoname'=>'Sol-Mur-Plafonds'
             ],
             [
             'renotype'=>'PPS',
