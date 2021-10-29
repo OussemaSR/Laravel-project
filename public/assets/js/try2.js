@@ -1021,19 +1021,5 @@ $(document).ready(function(e) {
 		  });
 
 
-
-
-
-/////////// for testing////////////
-	 $("#ignore").on("click",function(){
-		$("#note_card").hide();
-		$("#back_paint").hide();
-		$("#header_logo").hide();
-		// $("#msform_container").hide(); 
-		$("#survey_layout").show(); 
-		// $("#stepping").show();  
-		// $("#dynamic_frm").show();
-	  });
-		
 	
 	});

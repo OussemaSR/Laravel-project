@@ -649,7 +649,7 @@ class QuestionsTableSeeder extends Seeder
                 "question"=>"Quel(s) type(s) de travaux souhaitez-vous réaliser ?",
                 "type"=>"btn",
                 "commentary"=>"Plusieurs choix possibles"
-            ]
+            ],
 
 
         ]);

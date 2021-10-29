@@ -29,7 +29,7 @@
 	
 	<div id="back_paint">
 	    <div id="header_logo">
-			<a  id="ignore"><img src="assets/images/logoo.png" alt="sm devis" id="logo_class"></a>
+			<img src="assets/images/logoo.png" alt="sm devis" id="logo_class">
 	    </div>
 
 		<div id="msform_container" class="form_area">

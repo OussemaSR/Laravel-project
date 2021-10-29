@@ -474,6 +474,13 @@ class AnswerQuestionTableSeeder extends Seeder
             ['question_id'=>'88','answer_id'=>'81'],
             ['question_id'=>'88','answer_id'=>'6'],
 
+            ['question_id'=>'89','answer_id'=>'39'],
+            ['question_id'=>'89','answer_id'=>'41'],
+            ['question_id'=>'89','answer_id'=>'75'],
+            ['question_id'=>'89','answer_id'=>'76'],
+            ['question_id'=>'89','answer_id'=>'81'],
+            ['question_id'=>'89','answer_id'=>'6'],
+
             ['question_id'=>'90','answer_id'=>'39'],
             ['question_id'=>'90','answer_id'=>'41'],
             ['question_id'=>'90','answer_id'=>'75'],
@@ -505,6 +512,7 @@ class AnswerQuestionTableSeeder extends Seeder
             ['question_id'=>'93','answer_id'=>'121'],
             ['question_id'=>'93','answer_id'=>'122'],
             ['question_id'=>'93','answer_id'=>'123'],
+
 
         ]);
     }
